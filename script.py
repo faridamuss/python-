@@ -9,3 +9,9 @@ savings = 100
 
 # Print out savings
 print(savings)
+
+# Create a variable desc
+desc = "compound interest"
+
+# Create a variable profitable
+profitable = True 
