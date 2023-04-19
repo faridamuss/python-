@@ -29,3 +29,9 @@ house[3:5]
 
 # if we write house[:5] it will return the first 5 elements
 
+#adding or deleting elements from the list
+family = ['lisa', 12, 'emma', 6, 'dad', 40]
+mom = ['mom', 42]
+family = family + mom
+del(family[6]) #deleting the 7th element
+
