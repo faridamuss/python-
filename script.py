@@ -26,3 +26,6 @@ house[3]
 house[3:5]
 # will return 18.0 and 'living room'
 #[start:end] - inclusive and exclusive
+
+# if we write house[:5] it will return the first 5 elements
+
