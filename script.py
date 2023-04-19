@@ -22,3 +22,7 @@ house = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.7
 #indexing the list
 house[3]
 
+#slicing the list
+house[3:5]
+# will return 18.0 and 'living room'
+#[start:end] - inclusive and exclusive
