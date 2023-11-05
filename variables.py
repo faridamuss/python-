@@ -1,33 +1,15 @@
-# "I'd like a large pizza with feta cheese, prosciutto, olives, and arugula, on a gluten-free crust. Please deliver it to 401 Somewhere St. Specifically, to the treehouse in the back yard."
+# n = 1000
+# print(n)
 
-# pizza = {
-#     'size': 'large',
-#     'toppings': [
-#         'feta',
-#         'prosciutto',
-#         'olives',
-#         'arugula'
-#     ],
-#     'crust': 'gluten free',
-#     'address': '401 Somewhere St.',
-#     'note': 'Deliver to treehouse in back yard.'
-# }
-# print(pizza)
+# Python also allows chained assignment, which makes it possible to assign the same value to several variables simultaneously:
+a = b = c = 200
+print(a, b, c)
 
-# name is a variable. It contains a string
-name = input("Please type in your name:")
-print("Hello " + name + ", it's very nice to meet you!")
+#The chained assignment above assigns 300 to the variables a, b, and c simultaneously.
 
-# taxRate, subtotal, tax and total are all variables that contain numbers
-# taxRate = 0.14
-# subtotal = 20
-# tax = subtotal * taxRate
-# total = subtotal + tax
-# print("Your total bill is: ")
-# print(total)
+# Variables in Python are not subject to this restriction. In Python, a variable may be assigned a value of one type and then later re-assigned a value of a different type:
+var = 23.5
+print (var)
 
-# travelDestinations is a variable containing a list
-# city is a variable - its value is changing a few times
-# travelDestinations = ["Vancouver","Montreal","Calgary","Toronto"]
-# for city in travelDestinations:
-#     print(city + " looks like a cool place to go!!")
+var = "Now I'm a string"
+print (var)
