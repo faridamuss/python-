@@ -15,7 +15,7 @@
 # print(pizza)
 
 # name is a variable. It contains a string
-name = input()
+name = input("Please type in your name:")
 print("Hello " + name + ", it's very nice to meet you!")
 
 # taxRate, subtotal, tax and total are all variables that contain numbers
