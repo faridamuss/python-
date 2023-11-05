@@ -9,10 +9,24 @@
 # anyNum -= 5
 # print(anyNum)
 
-tripleUp = 5
-tripleUp *= 3
-print(tripleUp) # 15
+# tripleUp = 5
+# tripleUp *= 3
+# print(tripleUp) # 15
 
-quarterValue = 100
-quarterValue /= 4
-print(quarterValue) # 25.0
+# quarterValue = 100
+# quarterValue /= 4
+# print(quarterValue) # 25.0
+
+# It's important to start by defining your sum as 0 to start with.
+sum = 0
+
+num = int(input())
+sum += num
+
+num = int(input())
+sum += num
+
+num = int(input())
+sum += num
+
+print(sum)
