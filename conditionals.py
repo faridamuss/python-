@@ -10,10 +10,20 @@
 # else: 
 #   print('no')
 
-x = 20 
-if x < 50 : 
-  print("(first suite)")
-  print("x is small")
-else: 
-  print("(second suite)")
-  print("x is large")
+# x = 20 
+# if x < 50 : 
+#   print("(first suite)")
+#   print("x is small")
+# else: 
+#   print("(second suite)")
+#   print("x is large")
+
+name = "Stacy"
+if name == "Fred":
+  print ("Hello Fred")
+elif name == "Scott":
+  print("Hello Scott")
+elif name == "Joe":
+  print("Hello Joyeee!")
+else:
+  print("you're not welcome!")
