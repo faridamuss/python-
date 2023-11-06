@@ -2,8 +2,18 @@
 
 # if <expr> : <statement>
 
-x = 4
-y = 2
+# x = 41
+# y = 220
 
-if x > y :
-  print ('yes')
+# if x > y :
+#   print ('yes')
+# else: 
+#   print('no')
+
+x = 20 
+if x < 50 : 
+  print("(first suite)")
+  print("x is small")
+else: 
+  print("(second suite)")
+  print("x is large")
